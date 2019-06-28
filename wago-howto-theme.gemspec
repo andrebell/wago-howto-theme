@@ -6,14 +6,14 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Andre Alexander Bell"]
   spec.email         = ["github@andre-bell.de"]
 
-  spec.summary       = "TODO: Write a short summary, because Rubygems requires one."
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "This is a basic theme for HowTos provided by WAGO on Github."
+  spec.homepage      = "https://andrebell.github.com/wago-howto-theme"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
 
   spec.add_runtime_dependency "jekyll", "~> 3.8"
 
-  spec.add_development_dependency "bundler", "~> 1.16"
+  spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 12.0"
 end

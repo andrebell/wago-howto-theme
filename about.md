@@ -1,0 +1,4 @@
+---
+layout: page
+---
+Some page
