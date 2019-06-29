@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Home
 ---
 # Some content
 
