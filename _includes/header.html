@@ -1,15 +1,17 @@
 {%- assign default_paths = site.pages | map: "path" -%}
 {%- assign page_paths = site.header_pages | default: default_paths -%}
 {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-{{ page_paths | inspect }}
 <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
 	<div class="container">
 		<a class="navbar-brand" href="{% link index.md %}"><img src="{{ "/assets/images/wago.png" | relative_url }}" alt="WAGO" /></a>
+
+		<h2>{{ site.title }}</h2>
 
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
+		{% comment %}
 		<div class="collapse navbar-collapse" id="navbarCollapse">
 			<ul class="navbar-nav mr-auto">
 				{%- for path in page_paths -%}
@@ -29,6 +31,7 @@
 				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
 			</form>-->
 		</div>
+		{% endcomment %}
 	</div>
 </nav>
 <!--<div class="jumbotron">

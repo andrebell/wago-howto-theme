@@ -19,3 +19,9 @@ a.navbar-brand > img {
 footer.footer {
 	background-color: $grey-color-light !important;
 }
+
+.container > p > img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
