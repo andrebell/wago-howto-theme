@@ -298,3 +298,12 @@
     width:         calc(50% - (#{$spacing-unit} / 2));
   }
 }
+
+/**
+ * Optional class to center images as figures
+ */
+img.figure {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
