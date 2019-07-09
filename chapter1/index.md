@@ -1,5 +1,6 @@
 ---
-layout: chapter
+layout: page
 title: Chapter 1
 ---
-Some chapter page
+
+## Some chapter index page

@@ -1,0 +1,6 @@
+- path: "index.md"
+- path: "impressum.md"
+- path: "long-page.md"
+- path: "chapter1/index.md"
+  toc:
+    - path: "chapter1/second.md"

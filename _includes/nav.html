@@ -1,12 +1,12 @@
 <ul>
 {% for entry in site.data.toc %}
-{%- assign page = site.pages | where: "path", entry.file -%}
-  <li><a href="#">{{ entry.file }}</a>
+{%- assign current_page = site.html_pages | where: "path", entry.path -%}
+  <li><a href="#">{{ current_page.title }}</a>
     {% if entry.toc[0] %}
     <ul>
     {% for entry2 in entry.toc %}
-      {%- assign page2 = site.pages | where: "path", entry2.file -%}
-      <li>{{ entry2.file }}</li>
+      {%- assign current_page2 = site.html_pages | where: "path", entry2.path -%}
+      <li><a href="#">{{ current_page2.title }}</a></li>
     {% endfor %}
     </ul>
     {%endif %}
