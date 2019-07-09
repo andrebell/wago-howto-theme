@@ -37,22 +37,19 @@ a.dropdown-item.level2 {
 //  -webkit-transform: translateX(250px);
 //  transform: translateX(250px);
   border-right: 1px solid $grey-color-light;
-  padding-top: 63px;
 }
 
 .sidebar-nav {
   position: absolute;
   top: 0;
   width: 300px;
-  margin: 0;
-  padding: 0;
+  margin-top: 63px;
   list-style: none;
 }
 
 .sidebar-nav li.sidebar-nav-item a {
   display: block;
   text-decoration: none;
-  padding: 15px;
 }
 
 .sidebar-nav li a:hover {
@@ -62,6 +59,10 @@ a.dropdown-item.level2 {
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
   text-decoration: none;
+}
+
+.sidebar-nav-item.level2 {
+    padding-left: 15px;
 }
 
 .sidebar-nav > .sidebar-brand {
