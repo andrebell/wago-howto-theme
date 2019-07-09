@@ -9,7 +9,7 @@
 
 		<div class="container">
 			<div class="row">
-				<div id="sidebar-wrapper" class="col-4">
+				<div id="sidebar-wrapper">
 					<!--nav id="sidebar-wrapper"-->
 						<ul class="sidebar-nav">
 							{% for entry in site.data.toc %}
@@ -43,7 +43,7 @@
 						{% endcomment %}
 					<!--/nav-->
 				</div>
-				<div class="col-sm">
+				<div>
 					{{ content }}
 				</div>
 			</div>
