@@ -56,8 +56,8 @@ $on-large:         $on-laptop !default;
 
 // Import partials.
 @import
-  "wago/base",
-  "wago/layout",
-  "wago/syntax-highlighting",
+  //"wago/base",
+  //"wago/layout",
+  //"wago/syntax-highlighting",
   "wago/bootstrap-modifier"
 ;
