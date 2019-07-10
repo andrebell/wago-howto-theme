@@ -120,3 +120,12 @@ a.dropdown-item.level2 {
 
 .menu-toggle:hover {
 }
+
+/**
+ * Optional class to center images as figures
+ */
+img.figure {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
