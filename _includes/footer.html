@@ -1,9 +1,12 @@
 <footer class="footer mt-auto">
 	<div class="container">
 
-		<a class="nav-link" href="impressum.html">
+		{%- assign href = site.pages | where: 'title', 'Impressum' | first -%}
+		{% if href.url %}
+		<a class="nav-link" href="{{ href.url }}">
 			Impressum
 		</a>
+		{% endif %}
 
 	</div>
 </footer>
