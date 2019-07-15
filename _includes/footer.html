@@ -3,7 +3,7 @@
 
 		{%- assign href = site.pages | where: 'title', 'Impressum' | first -%}
 		{% if href.url %}
-		<a class="nav-link" href="{{ href.url }}">
+		<a class="nav-link" href="{{ href.url | relative_url }}">
 			Impressum
 		</a>
 		{% endif %}
