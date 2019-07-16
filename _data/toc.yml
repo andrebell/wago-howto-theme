@@ -1,6 +1,9 @@
 - path: "index.md"
 - path: "impressum.md"
-- path: "includes.md"
+- path: "includes/index.md"
+  toc:
+    - path: "includes/howtoinfo.md"
+    - path: "includes/info.md"
 - path: "long-page.md"
 - path: "chapter1/index.md"
   toc:
