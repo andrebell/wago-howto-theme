@@ -1,6 +1,6 @@
 body {
   background: $background-color;
-  margin-top: 70px;
+  margin-top: 62px;
   margin-bottom: 40px;
 }
 
@@ -32,20 +32,50 @@ a.dropdown-item.level2 {
   padding: .25rem 2rem;
 }
 
+.card {
+  margin: 0 1rem 1rem 1rem;
+}
+
+.card-header {
+  border-bottom: none;
+}
+
+.card > ul {
+  margin: 0;
+}
+
+.card > ul > li > p {
+  margin-left: 1rem;  
+}
+
+div#content {
+  padding: 2rem;
+}
+
+.fixed-top {
+  width: 100vw;
+}
+
 /* Side Menu */
 .wrapper {
-  display: flex;
-  align-items: stretch;
-  width: 100%;
 }
 
 #sidebar {
-  position: fixed;
-  width: 300px;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  z-index: 2000;
+  margin-left: 0px;
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 100%;
+  background: white;
+  border-right: $grey-color-light 1px solid;
+  transition: all 0.3s;
+  padding: 15px;
+}
+
+#sidebar.active {
+  margin-left: -300px;
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 100%;
   background: white;
   border-right: $grey-color-light 1px solid;
   transition: all 0.3s;
@@ -66,7 +96,10 @@ a.dropdown-item.level2 {
   padding-inline-start: 15px;
 }
 
-#sidebar-wrapper {
+.sidebar-wrapper {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
 }
 
 .sidebar-nav {
@@ -140,7 +173,7 @@ img.figure {
  */
 .info {
   padding: .5rem 1.25rem .75rem 5rem;
-  margin-bottom: 1rem;
+  margin: 0 auto 1rem auto;
   border: 1px solid transparent;
   border-radius: .25rem;
   color: #0c5460;
@@ -155,7 +188,7 @@ div.info {
 
 .note {
   padding: .5rem 1.25rem .75rem 5rem;
-  margin-bottom: 1rem;
+  margin: 0 auto 1rem auto;
   border: 1px solid transparent;
   border-radius: .25rem;
   color: #0c5460;
@@ -165,5 +198,65 @@ div.info {
 }
 
 div.note {
+  padding-bottom: 0;
+}
+
+.warning {
+  padding: .5rem 1.25rem .75rem 5rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  color: #856404;
+  border-color: #ffeeba;
+  min-height: 61px;
+  background: #fff3cd url("../images/warning.png") -0.75rem .75rem no-repeat;
+}
+
+div.warning {
+  padding-bottom: 0;
+}
+
+.warning-damage {
+  padding: .5rem 1.25rem .75rem 5rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  color: #856404;
+  border-color: #ffeeba;
+  min-height: 61px;
+  background: #fff3cd url("../images/warning-damage.png") -0.75rem .75rem no-repeat;
+}
+
+div.warning-damage {
+  padding-bottom: 0;
+}
+
+.warning-electricity {
+  padding: .5rem 1.25rem .75rem 5rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  color: #856404;
+  border-color: #ffeeba;
+  min-height: 61px;
+  background: #fff3cd url("../images/warning-electricity.png") -0.75rem .75rem no-repeat;
+}
+
+div.warning-electricity {
+  padding-bottom: 0;
+}
+
+.warning-esd {
+  padding: .5rem 1.25rem .75rem 5rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  color: #856404;
+  border-color: #ffeeba;
+  min-height: 61px;
+  background: #fff3cd url("../images/warning-esd.png") -0.75rem .75rem no-repeat;
+}
+
+div.warning-esd {
   padding-bottom: 0;
 }

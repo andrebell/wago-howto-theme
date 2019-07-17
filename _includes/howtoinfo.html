@@ -1,13 +1,20 @@
 {%- assign compatibility = include.compatibility | default: "TODO: Specify a compatibility note in the include" -%}
 {%- assign difficulty = include.difficulty | default: 1 -%}
 {%- assign effort = include.effort | default: 1 -%}
-<div class="card" style="width: 70%; margin: 0 auto 40px auto">
+<div class="card">
 	<div class="card-header">
 		<i class="material-icons">info</i> Info
 	</div>
 	<ul class="list-group list-group-flush">
-		<li class="list-group-item"><b>Kompatibilität</b>: {{ compatibility }}</li>
-		<li class="list-group-item"><b>Schwierigkeitsgrad</b>: {% include rating.html value=difficulty %}</li>
-		<li class="list-group-item"><b>Zeitlicher Aufwand</b>: {% include rating.html value=effort %}</li>
+		<li class="list-group-item">
+			<b>Kompatibilität</b>:
+			<p markdown="1">{{ compatibility }}</p>
+		</li>
+		<li class="list-group-item">
+			<b>Schwierigkeitsgrad</b>: {% include rating.html value=difficulty %}
+		</li>
+		<li class="list-group-item">
+			<b>Zeitlicher Aufwand</b>: {% include rating.html value=effort %}
+		</li>
 	</ul>
 </div>

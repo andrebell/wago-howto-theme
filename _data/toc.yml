@@ -4,6 +4,10 @@
   toc:
     - path: "includes/howtoinfo.md"
     - path: "includes/info.md"
+    - path: "includes/warning.md"
+    - path: "includes/warning-damage.md"
+    - path: "includes/warning-electricity.md"
+    - path: "includes/warning-esd.md"
 - path: "long-page.md"
 - path: "chapter1/index.md"
   toc:
