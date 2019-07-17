@@ -57,25 +57,11 @@ Das erzeugt HTML sieht dann wie folgt aus:
 
 ----
 
-Hier gibt es zwei Möglichkeiten das zu umgehen. Entweder es wird auf die Kramdown
+Hier gibt es folgende Möglichkeiten das zu umgehen:
 
-{:.info .alert .alert-info}
+{:.info}
 <div markdown="1">
 **Ein Titel**
 
 Dies ist **eine** zusätzliche Info.
 </div>
-
-1. a
-
-1. b
-
-	{:.info}
-	Dies ist **eine** zusätzliche Info. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br><br>
-	Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-1. c
-
-> A blockquote with a title
-{:title="The blockquote title"}
-{: #myid}
