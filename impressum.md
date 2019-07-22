@@ -4,7 +4,7 @@ title: Impressum
 ---
 # Impressum
 
-©2017 by WAGO Kontakttechnik GmbH & Co. KG
+©2019- by WAGO Kontakttechnik GmbH & Co. KG
 
 Alle Rechte vorbehalten.
 
