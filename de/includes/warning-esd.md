@@ -1,6 +1,8 @@
 ---
 layout: page
 title: warning-esd.html
+lang: de
+lang-ref: includes_warning-esd
 ---
 # {{ page.title }}
 

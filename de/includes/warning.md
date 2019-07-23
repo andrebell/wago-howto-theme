@@ -1,6 +1,8 @@
 ---
 layout: page
 title: warning.html
+lang: de
+lang-ref: includes_warning
 ---
 # {{ page.title }}
 

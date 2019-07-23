@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Home
+title: Nützliche Links
+lang: de
+lang-ref: links
 ---
 
 # WAGO HowTo Theme

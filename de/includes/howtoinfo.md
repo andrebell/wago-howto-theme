@@ -1,6 +1,8 @@
 ---
 layout: page
 title: howtoinfo.html
+lang: de
+lang-ref: includes_howtoinfo
 ---
 # {{ page.title }}
 

@@ -1,6 +1,8 @@
 ---
 layout: page
 title: info.html
+lang: de
+lang-ref: includes_info
 ---
 # {{ page.title }}
 

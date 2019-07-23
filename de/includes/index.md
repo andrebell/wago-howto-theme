@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Includes
+lang: de
+lang-ref: includes
 ---
 # {{ page.title }}
 

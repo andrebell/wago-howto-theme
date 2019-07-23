@@ -1,17 +1,19 @@
 ---
 layout: page
-title: warning-damage.html
+title: warning-electricity.html
+lang: de
+lang-ref: includes_warning-electricty
 ---
 # {{ page.title }}
 
 {:.info}
-Das Include hat ein paar Nachteile. Bitte bevorzugt auf {% raw %}{:.warning-damage}{% endraw %} zurückgreifen.
+Das Include hat ein paar Nachteile. Bitte bevorzugt auf {% raw %}{:.warning-electricity}{% endraw %} zurückgreifen.
 
-Eine kurze Info kann über den Include `warning-damage.html` erzeugt werden. Beispiel:
+Eine kurze Info kann über den Include `warning-electricity.html` erzeugt werden. Beispiel:
 
 ```
 {%- raw -%}
-{% include warning-damage.html 
+{% include warning-electricity.html 
 	content = "Dies ist eine Warnung."
 %}
 {% endraw %}
@@ -19,7 +21,7 @@ Eine kurze Info kann über den Include `warning-damage.html` erzeugt werden. Bei
 
 Diese Warnung erscheint dann im HTML Output als:
 
-{% include warning-damage.html 
+{% include warning-electricity.html 
 	content = "Dies ist eine Warnung."
 %}
 
@@ -33,7 +35,7 @@ Diese Version funktioniert nicht in Aufzählungen oder Bullet-lists. Das folgend
 
 1. Ein zweiter Eintrag
 
-	{% include warning-damage.html 
+	{% include warning-electricity.html 
 		content = "Diese Zeile wird nun nicht korrekt erfasst."
 	%}
 
@@ -49,7 +51,7 @@ Das erzeugt HTML sieht dann wie folgt aus:
 
 1. Ein zweiter Eintrag
 
-	{% include warning-damage.html 
+	{% include warning-electricity.html 
 		content = "Diese Zeile wird nun nicht korrekt erfasst."
 	%}
 
