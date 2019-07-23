@@ -48,8 +48,8 @@ lang: de
 #theme: minima
 
 plugins:
-  - jekyll-redirect-from
   - jemoji
+  - jekyll-redirect-from
   - jekyll-relative-links
 
 # - jekyll-feed

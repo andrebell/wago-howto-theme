@@ -29,10 +29,11 @@ zurückgegriffen.
 	author: Max Mustermann
 	email: max.mustermann@wago.com
 	remote_theme: andrebell/wago-howto-theme
+	lang: de
 	plugins:
 	  - jemoji
 	  - jekyll-redirect-from
-	  - Jekyll-relative-links
+	  - jekyll-relative-links
 	```
 
 1. Innerhalb des Repositories muss es ein oder mehrere Markdown-Files geben. Beispielsweise dieses `index.md`:
