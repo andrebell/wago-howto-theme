@@ -2,7 +2,7 @@
 {%- assign page_paths = site.header_pages | default: default_paths -%}
 {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
 
-<nav class="navbar navbar-light fixed-top bg-light">
+<nav class="navbar navbar-light sticky-top bg-light">
 	<div class="container">
 		<a class="navbar-brand" href="/"><img src="{{ '/assets/images/wago.png' | relative_url }}" alt="WAGO" /></a>
 		{% if site.data.toc %}
