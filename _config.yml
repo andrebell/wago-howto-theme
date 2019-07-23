@@ -50,6 +50,7 @@ lang: de
 plugins:
   - jekyll-redirect-from
   - jemoji
+  - jekyll-relative-links
 
 # - jekyll-feed
 # - jekyll-seo-tag
