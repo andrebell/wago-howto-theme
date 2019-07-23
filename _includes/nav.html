@@ -1,3 +1,5 @@
+{% if site.data.toc %}
+<!-- Sidebar width TOC -->
 <nav id="sidebar" class="active">
 	<div class="sidebar-header">
 		<h3>{{ site.data.languages[page.lang].toc-label }}</h3>
@@ -16,3 +18,4 @@
 		{% endfor %}
 	</ul>
 </nav>
+{% endif %}
