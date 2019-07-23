@@ -49,6 +49,19 @@ zurückgegriffen.
 
 1. Innerhalb von [GitHub] muss für das Repository [GitHubPages] in den Einstellungen aktiviert werden.
 
+## Nächste Schritte
+
+Diese Dokumentation gibt weiterführende Infos in den folgenden Kapiteln:
+
+- Markdown: Für die Nutzung dieses Themes müssen die Inhalte in Markdown geschrieben werden. In diesem Kapitel werden ein paar kurze Infos sowie Links bereitgestellt. Darüber hinaus werden ein paar Besonderheiten zum Markdown Prozessor Kramdown gegeben, der in GitHub Pages eingesetzt wird.
+- Jekyll: In diesem Kapitel werden ein paar Grundlagen zu [Jekyll], dem Tool hinter [GitHubPages], sowie zu der in Jekyll verwendeten Template Engine Liquid gegeben.
+- Verzeichnisse: Tipps zur Verzeichnisstruktur bei der Verwendung dieses Themes. 
+- GitHub Pages: Hier gibt es eine kurze Anleitung, wie die Einstellungen auf GitHub durchgeführt werden.
+- Internationalisierung: Soll die Dokumentation mehrsprachig ausgeführt werden, so beschreibt dieses Kapitel worauf es ankommt und wie das Theme das realisiert.
+- Includes: Einige wiederkehrende Elemente können vereinfacht auf Seiten hinzugefügt werden. Die möglichen Includes dieses Themes werden hier erläutert.
+- Konfiguration: Alle möglichen Konfigurationsparameter des Themes werden hier dargestellt.
+- Versionshistorie
+
 ## Lizenz
 
 Dieses Theme steht als Open Source unter der [MIT License] zur Verfügung.
