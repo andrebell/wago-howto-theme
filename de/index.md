@@ -51,6 +51,9 @@ zurückgegriffen.
 
 1. Innerhalb von [GitHub] muss für das Repository [GitHub Pages] in den Einstellungen aktiviert werden.
 
+   {:.info}
+   GitHub Pages generiert neue Seiten immer dann, wenn eine Änderung mit einem Push auf das Repository gespielt wird. 
+
 ## Nächste Schritte
 
 Diese Dokumentation gibt weiterführende Infos in den folgenden Kapiteln:
