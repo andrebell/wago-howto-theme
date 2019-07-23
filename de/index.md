@@ -58,7 +58,7 @@ Diese Dokumentation gibt weiterführende Infos in den folgenden Kapiteln:
 - Verzeichnisse: Tipps zur Verzeichnisstruktur bei der Verwendung dieses Themes. 
 - GitHub Pages: Hier gibt es eine kurze Anleitung, wie die Einstellungen auf GitHub durchgeführt werden.
 - Internationalisierung: Soll die Dokumentation mehrsprachig ausgeführt werden, so beschreibt dieses Kapitel worauf es ankommt und wie das Theme das realisiert.
-- [Includes]({{ link '/de/includes/index.md' | relative_url }}): Einige wiederkehrende Elemente können vereinfacht auf Seiten hinzugefügt werden. Die möglichen Includes dieses Themes werden hier erläutert.
+- [Includes]({% link /de/includes/index.md %}): Einige wiederkehrende Elemente können vereinfacht auf Seiten hinzugefügt werden. Die möglichen Includes dieses Themes werden hier erläutert.
 - Konfiguration: Alle möglichen Konfigurationsparameter des Themes werden hier dargestellt.
 - Versionshistorie
 
