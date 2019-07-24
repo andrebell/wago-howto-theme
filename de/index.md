@@ -20,6 +20,13 @@ Dieses Theme nutzt die standard [Jekyll] Installation auf [GitHub Pages]. Als Pl
 
 zurückgegriffen.
 
+Das Template nutzt die folgenden Javascript Bibliotheken:
+
+- [JQuery](https://jquery.com/) in Version 3.3.1
+- [Popper](https://popper.js.org/) in Version 1.14.7
+- [Bootstrap](https://getbootstrap.com) in Version 4.3.1
+- [MathJax](http://www.mathjax.org) in Version 2.7.5
+
 ## Schnellstart
 
 1. Um dieses Theme in einem Repository zu nutzen muss eine `_config.yml` Datei im Basisverzeichnis für [GitHubPages] angelegt werden.

@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Impressum
+lang: de
+lang-ref: impressum
 ---
 # Impressum
 

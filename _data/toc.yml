@@ -1,5 +1,5 @@
 - lang-ref: "wago-howto-theme"
-- lang-ref: "impressum"
+- lang-ref: "markdown"
 - lang-ref: "includes"
   toc:
     - lang-ref: "includes_howtoinfo"
