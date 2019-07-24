@@ -31,7 +31,7 @@ Das Template nutzt die folgenden Javascript Bibliotheken:
 
 1. Um dieses Theme in einem Repository zu nutzen muss eine `_config.yml` Datei im Basisverzeichnis für [GitHubPages] angelegt werden.
 
-	```yaml
+	```YAML
 	title: Ein Titel für die Webseite
 	author: Max Mustermann
 	email: max.mustermann@wago.com
@@ -45,7 +45,7 @@ Das Template nutzt die folgenden Javascript Bibliotheken:
 
 1. Innerhalb des Repositories muss es ein oder mehrere Markdown-Files geben. Beispielsweise dieses `index.md`:
 
-	```markdown
+	```Markdown
 	---
 	layout: page
 	title: Eine Indexseite
