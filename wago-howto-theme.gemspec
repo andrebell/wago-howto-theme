@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://andrebell.github.com/wago-howto-theme"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE.txt|README.md|impressum.md|404.html)!i) }
+  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE.txt|README.md)!i) }
 
   spec.add_runtime_dependency "jekyll", "~> 3.8"
   spec.add_runtime_dependency "jekyll-redirect-from", "~> 0.15"
